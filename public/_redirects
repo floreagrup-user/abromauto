@@ -1,0 +1,17 @@
+# Ambiguous bare-brand slugs renamed to descriptive ones (see _research/current-site/url-map.md)
+/peugeot/  /peugeot-2008/  301
+/volvo/    /volvo-xc40-interior-bej/  301
+
+# Old WooCommerce-default T&C slug -> clean new slug
+/refund_returns/  /termeni-si-conditii/  301
+
+# Old status category archives -> stock page with status filter
+/category/in-stoc/          /stoc-auto/?status=available    301
+/category/vandut/           /stoc-auto/?status=sold         301
+/category/soseste-in-curand/ /stoc-auto/?status=coming-soon 301
+
+# Old privacy-policy slug variant seen in some links
+/politica-privind-modulele-cookie/  /politica-cookie/  301
+
+# SPA fallback — everything else is handled client-side by React Router
+/*  /index.html  200
