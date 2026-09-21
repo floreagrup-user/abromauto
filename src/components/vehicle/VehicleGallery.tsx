@@ -37,9 +37,10 @@ export function VehicleGallery({ vehicle }: { vehicle: Vehicle }) {
         <img
           src={images[index].detail}
           alt={`${vehicle.brand} ${vehicle.model} — foto ${index + 1}/${count}`}
-          className="h-full w-full object-contain"
+          className="h-full w-full cursor-zoom-in object-contain"
           loading="eager"
           decoding="async"
+          onClick={() => setLightbox(true)}
         />
         <button
           type="button"

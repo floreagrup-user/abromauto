@@ -17,17 +17,17 @@
   --color-ink-900: #0a0f24;
   --color-ink-950: #05081566;
 
-  /* Primary — confident blue, trust + CTA */
-  --color-primary-50: #eef4ff;
-  --color-primary-100: #d9e6ff;
-  --color-primary-200: #b3ccff;
-  --color-primary-300: #83a9ff;
-  --color-primary-400: #4c7eff;
-  --color-primary-500: #2358f4;
-  --color-primary-600: #1642d1;
-  --color-primary-700: #1233a8;
-  --color-primary-800: #132b82;
-  --color-primary-900: #142866;
+  /* Primary — confident red, trust + CTA */
+  --color-primary-50: #fef2f2;
+  --color-primary-100: #fee2e2;
+  --color-primary-200: #fecaca;
+  --color-primary-300: #fca5a5;
+  --color-primary-400: #f87171;
+  --color-primary-500: #dc2626;
+  --color-primary-600: #b91c1c;
+  --color-primary-700: #991b1b;
+  --color-primary-800: #7f1d1d;
+  --color-primary-900: #6b1414;
 
   /* Accent — warm gold used sparingly for premium highlight/badges */
   --color-accent-400: #f0b545;
