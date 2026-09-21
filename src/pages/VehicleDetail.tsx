@@ -62,7 +62,7 @@ export default function VehicleDetail() {
         </nav>
 
         <div className="grid gap-8 lg:grid-cols-[1fr_360px]">
-          <div>
+          <div className="min-w-0">
             <VehicleGallery vehicle={vehicle} />
           </div>
 
